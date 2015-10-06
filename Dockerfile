@@ -1,5 +1,5 @@
 FROM java:7
-COPY tk_JavaHelloWorld.java
-RUN javac tk_JavaHelloWorld.java
-CMD ["java", "tk_JavaHelloWorld"]
+COPY tk_HelloWorld.java .
+RUN javac tk_HelloWorld.java
+CMD ["java", "tk_HelloWorld"]
  
