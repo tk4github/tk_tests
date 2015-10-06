@@ -4,5 +4,6 @@ public class JavaHelloWorld
 	{
 		System.out.println("Hello TK");
 		System.out.println("This seems to work nicely");
+		System.out.println("update 1");
 	}
 }
